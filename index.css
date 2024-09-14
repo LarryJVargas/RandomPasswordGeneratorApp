@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    width: 550px;
+    height: 550px;
+    background: #1F2937;
+}
+h1 {
+    width: 354px;
+    height: 80px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight:  bold;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px;
+    color: #FFFFFF;
+    margin: 115px 144px 10px 52px;
+    letter-spacing: -0.025em;
+}
+
+h1 .h1-color{
+    color: #4ADF86;
+}
+p {
+    width: 372px;
+    height: 28px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #D5D4D8;
+    margin: 0 126px 51px 52px;
+
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+    width: 191px;
+    height: 42px;
+    margin: 0px 307px 35px 52px;
+    background: #10B981;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    color:#FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 19px;
+    border: none;
+}
+
+hr {
+    width: 446px;
+    height: 0px;
+    border: 1px solid #2F3E53;
+    margin: 0px 52px;
+}
+
+.pass-gen {
+    width: 211px;
+    height: 39px;   
+    background: #273549;
+    border-radius: 6px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+    color: #55F991; 
+    line-height: 2;
+}
+
+.pass-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+    margin-left: 52px;
+    width: 446px;
+    height: 39px;
+}
+
+label {
+    display: block;
+    width: 372px;
+    height: 28px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #D5D4D8;
+    margin: 0px 0px 0px 52px;
+    
+}
+
+
+input {
+    margin: 10px 0px 20px 52px;
+    border-radius: 6px;
+    border: 3px solid #55F991;
+}
